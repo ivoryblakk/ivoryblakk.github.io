@@ -1,0 +1,40 @@
+{
+  "name": "home",
+  "homepage": "https://ivoryblakk.github.io/ivoryblakk.github.io",
+  "scripts":{
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+},
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "create-react-class": "^15.6.3",
+    "d3": "^5.9.2",
+    "gh-pages": "^2.0.1",
+    "mdbreact": "^4.15.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-d3-donut": "^1.1.2",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "remarkable": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "https://www.codewars.com/api/v1/users/ivoryblakk"
+}

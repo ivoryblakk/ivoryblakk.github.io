@@ -1,2 +1,2 @@
-# profile
-This is my CV resume
+# homePage
+New home page with react
