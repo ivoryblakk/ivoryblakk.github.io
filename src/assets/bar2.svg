@@ -1,3 +1,0 @@
- <svg  height="100%" width="100%" viewBox="0 0 100 100">
-            <line x1="0" y1="0" x2="200" y2="300" style={{stroke:'#5181dbc9', strokeWidth:'20%',strokeLength:'80%', height: "100%", position: 'relative', zIndex: '-1'}} />
-        </svg>
